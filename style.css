@@ -11,10 +11,10 @@ html{
 
 
 nav{
-    height:5rem;
+    height:6rem;
     width: 100%;
-    background-color: rgb(25, 25, 25);
-    padding:1rem 4rem;
+    background-color: rgba(25, 25, 25, 0);
+    padding:2rem 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,9 @@ nav ul a:before{
     transition-property: all;
     transition-duration: 2s;
 }
-
+a:hover{
+    color:rgb(240, 23, 23);
+}
 a:hover:before{
     animation: line 0.4s ;
 }
@@ -63,4 +65,46 @@ nav .logo a{
     text-decoration: none;
     color:white;
     font-size: 1.2rem;
+}
+
+.main-div{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -5;
+}
+
+.main-div .pepsi{
+    height: 90%;
+}
+
+.water{
+    width: 70%;
+    position: absolute;
+    top:30%; 
+}
+.water2{
+    width: 50%;
+    position: absolute;
+    top:37%; 
+    z-index: -2;
+    scale: -1;
+}
+.Pepsi-Text{
+    font-size: 60vh;
+    position: absolute;
+    z-index: -2;
+    color: white;
+}
+.leaf1{
+   width:15%;
+   position: absolute;
+   top:10%;
+   left:33%;
+   z-index: -2;
+   filter: blur(2px);
 }
