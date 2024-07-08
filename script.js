@@ -68,7 +68,7 @@ mm.add("(max-width: 460px)", () => {
     });
   
     tl.to(".main-div .pepsi", {
-      top: "104%",
+      top: "100%",
       left: "-2%",
       scale: 0.8
     }, "t")
@@ -90,12 +90,12 @@ mm.add("(max-width: 460px)", () => {
      //   markers: true,
         scrub: true,
         start: "-10% 90%",
-        end: "80% 50%"
+        end: "50% 50%"
       }
     });
   
     tl2.to(".main-div .pepsi", {
-      top: "315%",
+      top: "305%",
       left: "0.5%",
       scale: 0.8
     }, "cardt")
