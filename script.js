@@ -95,7 +95,7 @@ mm.add("(max-width: 460px)", () => {
       scrollTrigger: {
         trigger: ".page3",
         scroller: "body",
-        markers: true,
+     //   markers: true,
         scrub: true,
         start: "-10% 90%",
         end: "80% 50%"
@@ -156,7 +156,7 @@ mm.add("(max-width: 400px)", () => {
       scrollTrigger: {
         trigger: ".page3",
         scroller: "body",
-        markers: true,
+     //   markers: true,
         scrub: true,
         start: "-10% 90%",
         end: "80% 50%"
@@ -217,7 +217,7 @@ mm.add("(max-width: 400px)", () => {
       scrollTrigger: {
         trigger: ".page3",
         scroller: "body",
-        markers: true,
+       // markers: true,
         scrub: true,
        start: "-10% 90%",
         end: "80% 50%"
