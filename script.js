@@ -95,7 +95,7 @@ mm.add("(max-width: 460px)", () => {
     });
   
     tl2.to(".main-div .pepsi", {
-      top: "260%",
+      top: "262%",
       left: "0.5%",
       scale: 0.8
     }, "cardt")
