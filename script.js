@@ -41,15 +41,7 @@ mm.add("(min-width: 1260px)", () => {
     }
   });
 
-  tl2.from(".card1 img", {
-    y: 200,
-    x: -300
-  }, "cardt")
-  .from(".card3 img", {
-    y: 200,
-    x: 300
-  }, "cardt")
-  .to(".main-div .pepsi", {
+ tl2.to(".main-div .pepsi", {
     top: "188%",
     left: "0.5%",
     scale: 0.55
@@ -102,14 +94,6 @@ mm.add("(max-width: 460px)", () => {
       }
     });
   
-    tl2.from(".card1 img", {
-      y: 900,
-      x: -300
-    }, "cardt")
-    tl2.from(".card3 img", {
-      y: 200,
-      x: 300
-    })
     tl2.to(".main-div .pepsi", {
       top: "315%",
       left: "0.5%",
