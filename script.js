@@ -34,7 +34,7 @@ mm.add("(min-width: 1260px)", () => {
     scrollTrigger: {
       trigger: ".page3",
       scroller: "body",
-      markers: true,
+     // markers: true,
       scrub: true,
       start: "0% 90%",
       end: "50% 50%"
